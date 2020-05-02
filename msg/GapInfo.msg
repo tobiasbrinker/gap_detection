@@ -1,0 +1,3 @@
+string gap_id
+geometry_msgs/Pose center_point
+geometry_msgs/PoseArray outline_poses

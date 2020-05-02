@@ -1,0 +1,4 @@
+*.pyc
+*.pcd
+detector_evaluation.txt
+annotation_evaluation.txt
