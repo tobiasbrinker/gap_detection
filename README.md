@@ -1,4 +1,6 @@
 # Point Cloud Based Gap Detection in Automated Disassembly Processes To Aid Manipulation Tasks
+<img src="https://github.com/tobiasbrinker/gap_detection/blob/master/assets/result.png" alt="result" width="700"/>
+
 This is the official repository for "Point Cloud Based Gap Detection in Automated Disassembly Processes To Aid Manipulation Tasks" including an implementation of the pipeline in ROS. Evaluation data can be found [here](https://owncloud.gwdg.de/index.php/s/66olU321Hw2Fiz6). 
 
 ## Requirements
