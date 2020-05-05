@@ -55,7 +55,7 @@
     <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ugoe_gap_detection_ros)/rviz_config.rviz" />
 
     <!-- ////////////////////////////////PLAY THE ROSBAG IF bag:= true\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-    <arg name="bag_file" default="/home/tobi/Bachelorarbeit/data/evaluation/sprayed-90-1.bag"/> <!-- Change path for bagfile-->
+    <arg name="bag_file" default="$(find ugoe_gap_detection_ros)/demo/demo.bag"/> <!-- Change path for bagfile-->
 
     <node name="player" pkg="rosbag" type="play" output="screen" args="-q -l -r 1.0 --clock $(arg bag_file)" if="$(arg bag)"/>
     
