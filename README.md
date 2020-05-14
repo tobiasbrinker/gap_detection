@@ -13,7 +13,7 @@ This is the official repository for "Point Cloud Based Gap Detection in Automate
 * hdbscan 0.8.22
 
 ## Installation
-1. Make sure you have setup a [ROS workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace).
+1. Make sure you have set up a [ROS workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace).
 2. Clone this repository into the source directory of your workspace e.g. `catkin_ws/src/gap_detection`
 3. Install dependencies <br> `pip install -r requirements.txt`
 4. Build the package from the workspace root directory <br> `catkin_make`
@@ -29,5 +29,3 @@ This is the official repository for "Point Cloud Based Gap Detection in Automate
 - Query the gaps from the gap detection service: <br>`rosservice call /ugoe_gap_detection_ros/detect_gaps`
 
 ## Citation
-Add a bibtex here...
-
