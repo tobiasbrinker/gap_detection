@@ -2,8 +2,7 @@
 <p align='center'>
 <img src="https://github.com/tobiasbrinker/gap_detection/blob/master/assets/result.png" alt="result" width="600"/>
 </p>
-This is the official repository for the gap detector implementation of the ROBOVIS 2020 paper "A Visual Intelligence Scheme for Hard Drive Disassembly in Automated Recycling Routines".
-
+This is the official repository for the gap detector implementation of the ROBOVIS 2020 paper "A Visual Intelligence Scheme for Hard Drive Disassembly in Automated Recycling Routines".<br>
 We address the problem of analyzing the visual scenes on industrial-grade tasks, for example, automated robotic recycling of a computer hard drive with small components and little space for manipulation. The gap detector is a submodule that is responsible for the detection of gaps in devices. Given an input point cloud of the device, the gap detector produces a set of 3D outlines for the recognized gaps of the device.
 
 ## Requirements
